@@ -8,3 +8,4 @@ spec:
     image: nginx
     securityContext:
       privileged: true
+      runAsUser: 0
