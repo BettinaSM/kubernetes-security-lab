@@ -32,6 +32,19 @@ This project simulates real-world Kubernetes security risks and demonstrates how
 
 ---
 
+## 🧪 Real-World Security Simulation
+
+This project simulates real-world Kubernetes security risks commonly found in production environments, including:
+
+- Privileged containers
+- RBAC misconfigurations
+- Open network communication
+- Container breakout scenarios
+
+Designed to reflect enterprise-grade Kubernetes security challenges.
+
+---
+
 ## 📦 Project Structure
 
 ```text
