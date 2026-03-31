@@ -4,7 +4,7 @@ A hands-on project demonstrating Kubernetes security best practices, common misc
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project simulates real-world Kubernetes security risks and demonstrates how to secure workloads using:
 
@@ -15,7 +15,7 @@ This project simulates real-world Kubernetes security risks and demonstrates how
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Identify insecure Kubernetes configurations
 * Apply security best practices
@@ -24,7 +24,7 @@ This project simulates real-world Kubernetes security risks and demonstrates how
 
 ---
 
-## 🧠 Technologies
+##  Technologies
 
 * Kubernetes (YAML manifests)
 * RBAC
@@ -32,7 +32,7 @@ This project simulates real-world Kubernetes security risks and demonstrates how
 
 ---
 
-## 🧪 Real-World Security Simulation
+##  Real-World Security Simulation
 
 This project simulates real-world Kubernetes security risks commonly found in production environments, including:
 
@@ -45,7 +45,7 @@ Designed to reflect enterprise-grade Kubernetes security challenges.
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```text
 .
@@ -65,9 +65,9 @@ Designed to reflect enterprise-grade Kubernetes security challenges.
 
 ---
 
-## 🔥 Key Security Risks Demonstrated
+##  Key Security Risks Demonstrated
 
-### ❌ Privileged Containers
+###  Privileged Containers
 
 Containers running with elevated privileges can:
 
@@ -77,7 +77,7 @@ Containers running with elevated privileges can:
 
 ---
 
-### ❌ Overly Permissive RBAC
+###  Overly Permissive RBAC
 
 ```yaml
 verbs: ["*"]
@@ -88,13 +88,13 @@ Grants full control over the cluster.
 
 ---
 
-### ❌ Open Network Policies
+###  Open Network Policies
 
 Allow unrestricted communication between pods, increasing lateral movement risk.
 
 ---
 
-## ✅ Security Best Practices
+##  Security Best Practices
 
 * Run containers as non-root
 * Disable privilege escalation
@@ -104,7 +104,7 @@ Allow unrestricted communication between pods, increasing lateral movement risk.
 
 ---
 
-## 🚨 Attack Scenario: Container Breakout
+##  Attack Scenario: Container Breakout
 
 This project includes a real-world scenario where:
 
@@ -114,7 +114,7 @@ This project includes a real-world scenario where:
 
 ---
 
-## 🔒 Hardening Techniques
+##  Hardening Techniques
 
 * Pod Security Standards (baseline/restricted)
 * RBAC minimization
@@ -123,7 +123,7 @@ This project includes a real-world scenario where:
 
 ---
 
-## 📊 Future Improvements
+##  Future Improvements
 
 * Integration with security tools (Falco, Kyverno, OPA)
 * Runtime threat detection
@@ -132,13 +132,13 @@ This project includes a real-world scenario where:
 
 ---
 
-## 🏷️ Topics
+##  Topics
 
 kubernetes, security, devsecops, rbac, containers, cloud-security, k8s, network-policy
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Bettina Santana de Meirelles
 Unix/Linux Infrastructure | DevOps | Security | Cloud
@@ -147,7 +147,7 @@ Unix/Linux Infrastructure | DevOps | Security | Cloud
 
 ---
 
-## ⭐ Key Takeaways
+##  Key Takeaways
 
 ✔ Kubernetes security in practice
 ✔ Real misconfiguration scenarios
@@ -156,6 +156,6 @@ Unix/Linux Infrastructure | DevOps | Security | Cloud
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how insecure Kubernetes configurations can lead to critical security risks and how applying security best practices can significantly improve cluster protection.
